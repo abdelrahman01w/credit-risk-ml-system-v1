@@ -1,53 +1,102 @@
+# ================================
+
 # Python
-__pycache__/
+
+# ================================
+
+**pycache**/
 *.py[cod]
 *.pyo
 *.pyd
 
 # Virtual environments
+
 .venv/
 venv/
 env/
 
 # Environment variables / secrets
+
 .env
 .env.*
 !.env.example
 
+# ================================
+
 # Jupyter
+
+# ================================
+
 .ipynb_checkpoints/
 
+# ================================
+
 # Data
+
+# ================================
+
+# Do not commit datasets
+
 data/raw/*
 data/interim/*
 data/processed/*
 
-# Models / generated artifacts
-models/*
+# Keep directory structure in Git
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# ================================
+
+# ML model artifacts
+
+# ================================
+
+models/artifacts/*
 *.pkl
 *.pickle
 *.joblib
 *.h5
+*.keras
 *.onnx
 
-# Logs / reports generated during execution
-*.log
-reports/
+# ================================
+
+# Generated outputs
+
+# ================================
+
 outputs/
+reports/
+*.log
 
-# IDE
-.vscode/
-.idea/
+# ================================
 
-# OS
-.DS_Store
-Thumbs.db
+# Testing / coverage
 
-# Python tooling
+# ================================
+
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
-# Coverage
 .coverage
 htmlcov/
+
+# ================================
+
+# IDE
+
+# ================================
+
+.vscode/
+.idea/
+
+# ================================
+
+# OS
+
+# ================================
+
+.DS_Store
+Thumbs.db
