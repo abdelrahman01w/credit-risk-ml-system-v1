@@ -1,0 +1,268 @@
+{
+  "application_id": "APP-2026-EG-00202",
+  "applicant_type": "individual",
+  "submission_timestamp": "2026-09-15T15:10:00Z",
+  "is_returning_customer": false,
+  "documents": [
+    {
+      "document_type": "national_id",
+      "overall_quality_score": 0.95,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "full_name": "سارة إبراهيم يوسف",
+        "national_id": "29505121234568",
+        "date_of_birth": "1995-05-12",
+        "governorate": "الإسكندرية",
+        "address": "45 طريق الكورنيش، الإسكندرية"
+      }
+    },
+    {
+      "document_type": "salary_certificate",
+      "overall_quality_score": 0.92,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "employer_name": "فودافون مصر",
+        "job_title": "أخصائي تسويق رقمي",
+        "declared_net_salary": 18000.0,
+        "employment_date": "2021-02-01"
+      }
+    },
+    {
+      "document_type": "bank_statement",
+      "overall_quality_score": 0.95,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "bank_name": "البنك التجاري الدولي CIB",
+        "account_number": "EG9900987654",
+        "avg_monthly_net_inflow": 18000.0,
+        "avg_monthly_balance": 22000.0,
+        "income_regularity_score": 0.92
+      }
+    },
+    {
+      "document_type": "iscore_report",
+      "overall_quality_score": 0.97,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "credit_score": 680,
+        "score_tier": "Good",
+        "score_date": "2026-09-10"
+      }
+    }
+  ],
+  "national_id_fields": {
+    "full_name": {
+      "value": "سارة إبراهيم يوسف",
+      "confidence": 0.97
+    },
+    "national_id": {
+      "value": "29505121234568",
+      "confidence": 0.99
+    },
+    "date_of_birth": {
+      "value": "1995-05-12",
+      "confidence": 0.99
+    },
+    "age_years": {
+      "value": 31.3,
+      "confidence": 0.99
+    },
+    "gender": {
+      "value": "F",
+      "confidence": 0.99
+    },
+    "governorate": {
+      "value": "Alexandria",
+      "confidence": 0.98
+    },
+    "address": {
+      "value": "45 Corniche St, Alexandria",
+      "confidence": 0.96
+    },
+    "profession_on_id": {
+      "value": "أخصائي تسويق",
+      "confidence": 0.95
+    },
+    "marital_status_on_id": {
+      "value": "أعزب",
+      "confidence": 0.98
+    },
+    "id_expiry_date": {
+      "value": "2030-01-20",
+      "confidence": 0.99
+    }
+  },
+  "salary_certificate_fields": {
+    "employer_name": {
+      "value": "Vodafone Egypt",
+      "confidence": 0.96
+    },
+    "employer_sector": {
+      "value": "Multinational / Private",
+      "confidence": 0.97
+    },
+    "job_title": {
+      "value": "Digital Marketing Specialist",
+      "confidence": 0.95
+    },
+    "declared_net_salary": {
+      "value": 18000.0,
+      "confidence": 0.98
+    },
+    "declared_gross_salary": {
+      "value": 23500.0,
+      "confidence": 0.96
+    },
+    "employment_date": {
+      "value": "2021-02-01",
+      "confidence": 0.97
+    },
+    "employment_tenure_years": {
+      "value": 5.6,
+      "confidence": 0.97
+    },
+    "issue_date": {
+      "value": "2026-09-08",
+      "confidence": 0.99
+    }
+  },
+  "bank_statement_fields": {
+    "bank_name": {
+      "value": "CIB",
+      "confidence": 0.99
+    },
+    "account_number": {
+      "value": "EG9900987654",
+      "confidence": 0.98
+    },
+    "statement_period_months": {
+      "value": 6,
+      "confidence": 1.0
+    },
+    "avg_monthly_net_inflow": {
+      "value": 18000.0,
+      "confidence": 0.96
+    },
+    "avg_monthly_balance": {
+      "value": 22000.0,
+      "confidence": 0.97
+    },
+    "min_monthly_balance": {
+      "value": 5000.0,
+      "confidence": 0.97
+    },
+    "max_monthly_balance": {
+      "value": 35000.0,
+      "confidence": 0.97
+    },
+    "balance_volatility_std": {
+      "value": 6200.0,
+      "confidence": 0.93
+    },
+    "overdraft_frequency": {
+      "value": 0,
+      "confidence": 0.99
+    },
+    "returned_cheques_count": {
+      "value": 0,
+      "confidence": 0.99
+    },
+    "income_regularity_score": {
+      "value": 0.92,
+      "confidence": 0.95
+    }
+  },
+  "iscore_report_fields": {
+    "is_available": true,
+    "credit_score": {
+      "value": 680,
+      "confidence": 0.98
+    },
+    "score_tier": {
+      "value": "Good",
+      "confidence": 0.98
+    },
+    "score_date": {
+      "value": "2026-09-10",
+      "confidence": 0.99
+    },
+    "total_active_loans_limit": {
+      "value": 50000.0,
+      "confidence": 0.97
+    },
+    "total_outstanding_balance": {
+      "value": 12000.0,
+      "confidence": 0.97
+    },
+    "total_overdue_amount": {
+      "value": 0.0,
+      "confidence": 0.99
+    },
+    "max_days_past_due": {
+      "value": 0,
+      "confidence": 0.99
+    },
+    "active_credit_cards_count": {
+      "value": 1,
+      "confidence": 0.98
+    },
+    "total_credit_card_utilization": {
+      "value": 0.24,
+      "confidence": 0.97
+    },
+    "bureau_facilities": []
+  },
+  "form_data": {
+    "requested_amount": 90000.0,
+    "tenure_months": 24,
+    "requested_annuity": 4600.0,
+    "loan_purpose": "personal_cash",
+    "goods_price": 0.0,
+    "family_status": "single",
+    "children_count": 0,
+    "family_members_count": 1,
+    "housing_type": "rented",
+    "education_type": "higher_education",
+    "owns_car": false,
+    "owns_realty": false,
+    "branch_id": 2
+  },
+  "internal_history": {
+    "internal_history_missing": 1,
+    "customer_id": null,
+    "kyc_status": "not_applicable",
+    "customer_since_date": null,
+    "relationship_tenure_months": 0,
+    "bank_accounts": [],
+    "previous_bank_loans": [],
+    "aggregated_metrics": {
+      "prev_app_count": 0,
+      "prev_approved_count": 0,
+      "prev_refused_count": 0,
+      "prev_approved_ratio": 0.0,
+      "prev_avg_credit": 0.0,
+      "inst_payment_count": 0,
+      "inst_late_count": 0,
+      "inst_severe_late_count": 0,
+      "inst_late_ratio": 0.0,
+      "inst_avg_days_late": 0.0,
+      "inst_max_days_late": 0,
+      "pos_record_count": 0,
+      "pos_avg_dpd": 0.0,
+      "cc_avg_balance": 0.0,
+      "cc_balance_to_limit_ratio": 0.0
+    }
+  },
+  "consistency_checks": {
+    "income_mismatch_ratio": 0.0,
+    "employer_name_match": true,
+    "employer_match_similarity_score": 0.97,
+    "national_id_match_across_documents": true,
+    "iscore_report_age_days": 5,
+    "document_tampering_flag": false,
+    "running_balance_math_valid": true,
+    "fraud_risk_level": "LOW",
+    "triggered_fraud_rules": []
+  },
+  "excluded_features_note": "New applicant cold-start handled gracefully via internal_history_missing=1 flag."
+}

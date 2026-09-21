@@ -1,0 +1,305 @@
+{
+  "application_id": "APP-2026-EG-00101",
+  "applicant_type": "individual",
+  "submission_timestamp": "2026-09-15T14:30:00Z",
+  "is_returning_customer": true,
+  "documents": [
+    {
+      "document_type": "national_id",
+      "overall_quality_score": 0.96,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "full_name": "أحمد مصطفى علي إبراهيم",
+        "national_id": "29001011234567",
+        "date_of_birth": "1990-01-01",
+        "governorate": "القاهرة",
+        "address": "12 شارع النصر، مدينة نصر، القاهرة"
+      }
+    },
+    {
+      "document_type": "salary_certificate",
+      "overall_quality_score": 0.94,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "employer_name": "شركة المصرية للاتصالات",
+        "job_title": "مهندس برمجيات أول",
+        "declared_net_salary": 24000.0,
+        "employment_date": "2018-05-01"
+      }
+    },
+    {
+      "document_type": "bank_statement",
+      "overall_quality_score": 0.98,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "bank_name": "بنك مصر",
+        "account_number": "EG0001234567",
+        "avg_monthly_net_inflow": 24000.0,
+        "avg_monthly_balance": 45200.0,
+        "income_regularity_score": 0.95
+      }
+    },
+    {
+      "document_type": "iscore_report",
+      "overall_quality_score": 0.99,
+      "is_tampered_suspected": false,
+      "extracted_fields": {
+        "credit_score": 725,
+        "score_tier": "Very Good",
+        "score_date": "2026-09-01"
+      }
+    }
+  ],
+  "national_id_fields": {
+    "full_name": {
+      "value": "أحمد مصطفى علي إبراهيم",
+      "confidence": 0.98
+    },
+    "national_id": {
+      "value": "29001011234567",
+      "confidence": 0.99
+    },
+    "date_of_birth": {
+      "value": "1990-01-01",
+      "confidence": 0.99
+    },
+    "age_years": {
+      "value": 36.7,
+      "confidence": 0.99
+    },
+    "gender": {
+      "value": "M",
+      "confidence": 0.99
+    },
+    "governorate": {
+      "value": "Cairo",
+      "confidence": 0.98
+    },
+    "address": {
+      "value": "12 Al Nasr St, Nasr City, Cairo",
+      "confidence": 0.95
+    },
+    "profession_on_id": {
+      "value": "مهندس",
+      "confidence": 0.95
+    },
+    "marital_status_on_id": {
+      "value": "متزوج",
+      "confidence": 0.97
+    },
+    "id_expiry_date": {
+      "value": "2029-08-14",
+      "confidence": 0.99
+    }
+  },
+  "salary_certificate_fields": {
+    "employer_name": {
+      "value": "Telecom Egypt",
+      "confidence": 0.96
+    },
+    "employer_sector": {
+      "value": "Public Enterprise",
+      "confidence": 0.95
+    },
+    "job_title": {
+      "value": "Senior Software Engineer",
+      "confidence": 0.94
+    },
+    "declared_net_salary": {
+      "value": 24000.0,
+      "confidence": 0.97
+    },
+    "declared_gross_salary": {
+      "value": 31000.0,
+      "confidence": 0.95
+    },
+    "employment_date": {
+      "value": "2018-05-01",
+      "confidence": 0.96
+    },
+    "employment_tenure_years": {
+      "value": 8.3,
+      "confidence": 0.96
+    },
+    "issue_date": {
+      "value": "2026-09-05",
+      "confidence": 0.98
+    }
+  },
+  "bank_statement_fields": {
+    "bank_name": {
+      "value": "Banque Misr",
+      "confidence": 0.99
+    },
+    "account_number": {
+      "value": "EG0001234567",
+      "confidence": 0.98
+    },
+    "statement_period_months": {
+      "value": 6,
+      "confidence": 1.0
+    },
+    "avg_monthly_net_inflow": {
+      "value": 24000.0,
+      "confidence": 0.95
+    },
+    "avg_monthly_balance": {
+      "value": 45200.0,
+      "confidence": 0.97
+    },
+    "min_monthly_balance": {
+      "value": 12000.0,
+      "confidence": 0.97
+    },
+    "max_monthly_balance": {
+      "value": 68000.0,
+      "confidence": 0.97
+    },
+    "balance_volatility_std": {
+      "value": 8400.0,
+      "confidence": 0.92
+    },
+    "overdraft_frequency": {
+      "value": 0,
+      "confidence": 0.99
+    },
+    "returned_cheques_count": {
+      "value": 0,
+      "confidence": 0.99
+    },
+    "income_regularity_score": {
+      "value": 0.95,
+      "confidence": 0.94
+    }
+  },
+  "iscore_report_fields": {
+    "is_available": true,
+    "credit_score": {
+      "value": 725,
+      "confidence": 0.99
+    },
+    "score_tier": {
+      "value": "Very Good",
+      "confidence": 0.99
+    },
+    "score_date": {
+      "value": "2026-09-01",
+      "confidence": 0.99
+    },
+    "total_active_loans_limit": {
+      "value": 100000.0,
+      "confidence": 0.98
+    },
+    "total_outstanding_balance": {
+      "value": 28000.0,
+      "confidence": 0.98
+    },
+    "total_overdue_amount": {
+      "value": 0.0,
+      "confidence": 0.99
+    },
+    "max_days_past_due": {
+      "value": 0,
+      "confidence": 0.99
+    },
+    "active_credit_cards_count": {
+      "value": 1,
+      "confidence": 0.98
+    },
+    "total_credit_card_utilization": {
+      "value": 0.28,
+      "confidence": 0.96
+    },
+    "bureau_facilities": [
+      {
+        "lender_name": "Commercial International Bank",
+        "facility_type": "credit_card",
+        "granted_amount": 20000.0,
+        "outstanding_amount": 5600.0,
+        "installment_amount": 1000.0,
+        "status": "active",
+        "overdue_days": 0,
+        "overdue_amount": 0.0,
+        "start_date": "2022-04-10",
+        "legal_action_flag": false
+      }
+    ]
+  },
+  "form_data": {
+    "requested_amount": 150000.0,
+    "tenure_months": 36,
+    "requested_annuity": 5800.0,
+    "loan_purpose": "personal_cash",
+    "goods_price": 0.0,
+    "family_status": "married",
+    "children_count": 1,
+    "family_members_count": 3,
+    "housing_type": "owned",
+    "education_type": "higher_education",
+    "owns_car": true,
+    "owns_realty": true,
+    "branch_id": 1
+  },
+  "internal_history": {
+    "internal_history_missing": 0,
+    "customer_id": "501",
+    "kyc_status": "verified",
+    "customer_since_date": "2022-03-15",
+    "relationship_tenure_months": 54,
+    "bank_accounts": [
+      {
+        "account_id": "1001",
+        "account_type": "current",
+        "currency": "EGP",
+        "current_balance": 45200.0,
+        "open_date": "2022-03-16",
+        "status": "active"
+      }
+    ],
+    "previous_bank_loans": [
+      {
+        "loan_id": "7001",
+        "loan_type": "personal",
+        "principal_amount": 50000.0,
+        "interest_rate": 0.14,
+        "tenure_months": 24,
+        "status": "closed",
+        "start_date": "2023-02-01",
+        "installments_count": 24,
+        "paid_on_time_count": 24,
+        "late_payments_count": 0,
+        "severe_late_count": 0,
+        "max_days_past_due": 0
+      }
+    ],
+    "aggregated_metrics": {
+      "prev_app_count": 1,
+      "prev_approved_count": 1,
+      "prev_refused_count": 0,
+      "prev_approved_ratio": 1.0,
+      "prev_avg_credit": 50000.0,
+      "inst_payment_count": 24,
+      "inst_late_count": 0,
+      "inst_severe_late_count": 0,
+      "inst_late_ratio": 0.0,
+      "inst_avg_days_late": 0.0,
+      "inst_max_days_late": 0,
+      "pos_record_count": 12,
+      "pos_avg_dpd": 0.0,
+      "cc_avg_balance": 0.0,
+      "cc_balance_to_limit_ratio": 0.0
+    }
+  },
+  "consistency_checks": {
+    "income_mismatch_ratio": 0.0,
+    "employer_name_match": true,
+    "employer_match_similarity_score": 0.98,
+    "national_id_match_across_documents": true,
+    "iscore_report_age_days": 14,
+    "document_tampering_flag": false,
+    "running_balance_math_valid": true,
+    "fraud_risk_level": "LOW",
+    "triggered_fraud_rules": []
+  },
+  "excluded_features_note": "SOCIAL_CIRCLE_* permanently dropped. EXT_SOURCE_* proxied via normalized I-Score."
+}
