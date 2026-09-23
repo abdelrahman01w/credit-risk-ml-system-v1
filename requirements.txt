@@ -1,0 +1,18 @@
+# Core data / ML — used by application.py, previous_application.py,
+# installments.py, pos_cash.py, bureau.py, credit_card.py, build_features.py, train.py
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+
+# Request/response schemas — used by schemas.py, application_mapper.py
+pydantic
+
+# --- Not used yet, but needed for the NEXT files (predict.py / api/) ---
+fastapi
+uvicorn[standard]
+
+# --- Testing ---
+pytest
