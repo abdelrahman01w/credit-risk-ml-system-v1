@@ -1,5 +1,6 @@
-# Core data / ML — used by application.py, previous_application.py,
-# installments.py, pos_cash.py, bureau.py, credit_card.py, build_features.py, train.py
+# Core data / ML
+# used by: application.py, previous_application.py, installments.py,
+# pos_cash.py, bureau.py, credit_card.py, build_features.py, train.py, predict.py
 numpy
 pandas
 scipy
@@ -7,12 +8,15 @@ scikit-learn
 xgboost
 lightgbm
 
-# Request/response schemas — used by schemas.py, application_mapper.py
+# Request/response schemas + validation
+# used by: api/schemas.py, application_mapper.py
 pydantic
 
-# --- Not used yet, but needed for the NEXT files (predict.py / api/) ---
+# API layer
+# used by: api/main.py, api/routes/new_customer.py, api/routes/returning_customer.py
 fastapi
 uvicorn[standard]
 
-# --- Testing ---
+# Testing
+# used by: tests/test_features.py, tests/test_pipeline.py
 pytest

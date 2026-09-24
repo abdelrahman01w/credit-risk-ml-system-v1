@@ -34,9 +34,9 @@ CREDIT_CARD_PATH = DATA_DIR / "credit_card_balance.csv"
 # ------------------------------------------------------------------
 XGB_MODEL_FILE = "xgb_final.pkl"
 LGB_MODEL_FILE = "lgb_final.pkl"
-ENCODER_FILE = "onehot_encoder.pkl"
-FEATURE_NAMES_FILE = "feature_names_final_v2.pkl"
-FIT_ARTIFACTS_FILE = "fit_artifacts.pkl"  # medians, missing-flag columns, etc. (see application.py)
+APPLICATION_FIT_ARTIFACTS_FILE = "application_fit_artifacts.pkl"
+BUILD_MATRIX_FIT_ARTIFACTS_FILE = "build_matrix_fit_artifacts.pkl"
+BLEND_WEIGHTS_FILE = "blend_weights.pkl"  # medians, missing-flag columns, etc. (see application.py)
 
 # ------------------------------------------------------------------
 # Blend weights (from cell 22's blend-weight search — overwritten by
